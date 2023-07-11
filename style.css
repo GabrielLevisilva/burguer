@@ -115,25 +115,25 @@ header > nav{
     background-color: rgb(255, 255, 255);
     text-align: center;
     padding: 13px;
-    border: solid 1px rgba(0, 0, 0, 0.315);
+    border: solid 1px #35b8be;
 }
 .caixa-comida > img{
     width: 100%;
     border-radius: 15px;
 }
-.caixa-comida > div{
+.caixa-comida > section > div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 0px;
 }
-.caixa-comida > div > h4{
+.caixa-comida > section > div > h4{
     font-size: 1.5em;
 }
 .price{
     color: #35b8be;
 }
-.caixa-comida > button{
+.caixa-comida > section > button{
     padding: 10px;
     margin-top: 10px;
 }
@@ -164,14 +164,14 @@ header > nav{
     padding: 50px 10px;
     text-align: center;
 }
-#bloco6 > h2{
+#bloco6 > div > h2{
     color: #35b8be;
     font-size: 2.6em;
 }
-#bloco6 > p{
+#bloco6 > div >p{
     margin: 20px 0px 10px 0px;
 }
-#bloco6 > button{
+#bloco6 > div > button{
      margin-top: 20px;
      padding-left: 10px;
      padding-right: 10px;

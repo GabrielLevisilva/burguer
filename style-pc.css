@@ -1,0 +1,162 @@
+@media screen and (min-width: 992px){
+    /* HEADER */
+    header{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px 130px 10px 40px;
+    }
+    header > img{
+        width: 3%;
+    }
+    header >nav{
+        display: block;
+        display: flex;
+        gap: 30px;
+    }
+    nav > a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.432);
+        transition: 0.5s;
+    }
+    nav > a:hover{
+        color: black;
+    }
+    .pagina-atual{
+        color: #35b8be;
+    }
+    .pagina-atual:hover{
+        color: #2c7377;
+    }
+    /* BLOCO 1 */
+    #bloco1{
+        background-size: contain;
+        display: flex;
+        margin: auto;
+        width: 56vw;
+        align-items: center;
+        text-align: start;
+    }
+    #bloco1 > .container > h1{
+        font-size: 3.5em;
+    }
+    /* BLOCO 2 */
+    #bloco2{
+        display: flex;
+    width: 58vw;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+    padding: 50px 50px;
+    }
+    #bloco2 > img{
+        width: 100%;
+    }
+    /* BLOCO 3 */
+    #bloco3{
+        
+    }
+    #bloco3 > section{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    #bloco3 > section > .caixa{
+        width: 17%;
+    }
+    /* BLOCO 4 */
+    #bloco4{
+        background-position: 50% 4%;
+    }
+    .comidas{
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .caixa-comida{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+        padding: 20px;
+        border: solid 1px #35b7be1f;
+        transition: 0.5s;
+    
+    }
+    .caixa-comida:hover{
+        border-color: #35b8be;
+        box-shadow: 1px 1px 10px white;
+    }
+    .caixa-comida > img{
+        width: 25%;
+        margin-right: 30px;
+    }
+    .caixa-comida > section > div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .caixa-comida > section > button{
+        font-size: 1em;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    #menu-btn{
+        width: 23%;
+    }
+    /* BLOCO 5 */
+    #bloco5{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin: auto;
+        align-items: center;
+        text-align: start;
+        
+    }
+    #bloco5 > img{
+        width: 53%;
+    }
+    /* BLOCO 6 */
+    #bloco6{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 50%;
+        margin: auto;
+        text-align: start;
+        background-image: url(img/quadrado-irregular.svg);
+        padding: 50px 40px;
+        background-position: 50% 0%;
+    }
+    #bloco6 > img{
+        width: 50%;
+    }
+    /* BLOCO 7 */
+    #bloco7{
+        display: flex;
+        padding: 50px 20px;
+        gap: 15px;
+        width: 70%;
+        margin: auto;
+    }
+    #bloco7 > img{
+        width: 50%;
+    }
+    #bloco7 > div{
+        width: 50%;
+        padding-left: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #bloco7 > div > button{
+        width: 40%;
+    }
+}

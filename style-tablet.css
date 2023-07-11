@@ -89,6 +89,9 @@
     }
 
     #bloco7 > div {
-        height: 19vh;
+        height: 37vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

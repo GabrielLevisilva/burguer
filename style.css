@@ -215,4 +215,19 @@ header > nav{
 #bloco7 > div > h2 > strong{
     color: #2d8c91;
 }
-
+/* BACKGROUNDS */
+#bloco1{
+    background-image: url(img/triangulo-irregular.svg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+#bloco2{
+    background-image: url(img/quadrado-irregular.svg);
+    background-repeat: no-repeat;
+}
+#bloco4{
+    background-image: url(img/quadrado-irregular.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 1738%;
+}

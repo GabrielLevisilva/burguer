@@ -1,4 +1,4 @@
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1471px){
     /* HEADER */
     header{
         background-color: white;
@@ -79,6 +79,7 @@
         margin: auto;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        align-items: center;
     }
     .caixa-comida{
         width: 45%;

@@ -1,24 +1,94 @@
-/* começo 16:45 */
-@media only screen and (min-width: 600px) , (max-width: 900px){
-    body{
-        
-    }
+@media (min-width: 376px) and (max-width: 1468px) {
     /* BLOCO 1 */
-    #bloco1 > img {
-        width: 78%;
-        margin: 100px 0px;
+    #bloco1 > .container > h1{
+        font-size: 4em;
+        padding: 0px 30px;
     }
-    /* BLOCO 4 */
+    #bloco1 > .container > p{
+        padding: 0px 30px;
+        font-size: 1.2em;
+    }
+    #bloco1 > img{
+        width: 70%;
+    }
+
+    /* BLOCO 2 */
+    #bloco2 > .container > h2{
+        font-size: 4em;
+        padding: 0px 100px;
+    }
+    #bloco2 > .container > p{
+        padding: 0px 30px;
+        font-size: 1.2em;
+    }
+    #bloco2 > img{
+        width: 70%;
+    }
+    /* BLOCO 3 */
+    #bloco3 > h2{
+        font-size: 4em;
+        padding: 0px 100px;
+    }
+    .caixa > img{
+        width: 60%;
+    }
+    .caixa > p{
+        padding: 0px 60px;
+        font-size: 1.2em;
+    }
+    .caixa > h3{
+        padding: 0px 30px;
+        font-size: 1.9em;
+    }
+
+    /* bloco 4 */
+    #bloco4 > h2{
+        font-size: 3.7em;
+        padding: 0px 100px;
+    }
+    #bloco4 > p{
+        padding: 0px 60px;
+    }
     .comidas{
-        width: 100%;
         display: flex;
-        flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
     }
     .caixa-comida{
-        align-items: center;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+
     }
     .caixa-comida > img{
-        width: 31%;
-        height: 81%;
+        width: 19%;
+    }
+    /* BLOCO 5 */
+    #bloco5 > .container > h2{
+        font-size: 3.7em;
+        padding: 0px 100px;
+    }
+    #bloco5 > .container > p{
+        font-size: 1.2em;
+        padding: 0px 60px;
+    }
+    /* BLOCO 6 */
+    #bloco6 > div > h2{
+        font-size: 3.7em;
+        padding: 0px 100px;
+    }
+    #bloco6 > div > p{
+        font-size: 1.2em;
+        padding: 0px 60px;
+    }
+    #bloco6 > img{
+        width: 70%;
+    }
+
+    #bloco7 > div {
+        height: 19vh;
     }
 }

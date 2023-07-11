@@ -1,0 +1,24 @@
+/* começo 16:45 */
+@media only screen and (min-width: 600px) , (max-width: 900px){
+    body{
+        
+    }
+    /* BLOCO 1 */
+    #bloco1 > img {
+        width: 78%;
+        margin: 100px 0px;
+    }
+    /* BLOCO 4 */
+    .comidas{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .caixa-comida{
+        align-items: center;
+    }
+    .caixa-comida > img{
+        width: 31%;
+        height: 81%;
+    }
+}

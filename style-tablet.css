@@ -1,4 +1,33 @@
 @media (min-width: 376px) and (max-width: 1468px) {
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    header > img{
+        width: 10%;
+    }
+    header >nav{
+        display: flex;
+        gap: 10px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    nav > a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.432);
+        transition: 0.5s;
+    }
+    nav > a:hover{
+        color: black;
+    }
+    .pagina-atual{
+        color: #35b8be;
+    }
+    .pagina-atual:hover{
+        color: #2c7377;
+    }
     /* BLOCO 1 */
     #bloco1 > .container > h1{
         font-size: 4em;
